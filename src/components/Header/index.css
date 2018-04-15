@@ -1,0 +1,38 @@
+.header {
+  margin: auto;
+  text-align: center;
+  max-width: 50%;
+}
+
+.subtitle {
+  display: none;
+  position: relative;
+  top: -40px;
+  left: 50px;
+}
+
+@media screen and (min-width: 540px) {
+  .header {
+    font-size: 1.25em;
+    position: relative;
+    max-width: 200px;
+    top: -80px;
+    margin-bottom: -90px;
+  }
+  .subtitle {
+    display: inline;
+    left: 50px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .header {
+    font-size: 1.6em;
+    top: -100px;
+    margin-bottom: -110px;
+  }
+
+  .subtitle {
+    left: 100px;
+  }
+}

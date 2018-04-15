@@ -1,0 +1,16 @@
+.social-media {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  text-indent: -300em;
+  margin: 0;
+}
+
+.social-media.twitter {
+  background-image: url(./ic_twitter.svg);
+}
+
+.social-media.github {
+  background-image: url(./ic_github.svg);
+}

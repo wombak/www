@@ -1,0 +1,34 @@
+.inputField {
+  margin: auto;
+  display: flex;
+}
+
+.inputField :first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.inputField :last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.inputField input {
+  font-family: 'Muli', sans-serif;
+  color: #141927;
+  font-size: 18px;
+  border: 0;
+  padding: 10px;
+  width: 100%;
+  height: 25px;
+}
+
+.button {
+  border: 0;
+  padding: 10px 20px;
+  height: 45px;
+  font-family: 'Muli', sans-serif;
+  background-color: #f5e05b;
+  color: #141927;
+  font-size: 16px;
+  text-transform: uppercase;
+}
