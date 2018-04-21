@@ -1,7 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { WombakLogo, Header, InputButton, Footer, Form } from '../components'
+import {
+  WombakLogo,
+  Header,
+  InputButton,
+  Footer,
+  Form,
+  CoolBackground,
+} from '../components'
 import Link from 'gatsby-link'
+
+import './index.css'
 
 const footerLinks = [
   {
@@ -24,6 +33,7 @@ const IndexPage = () => (
       />
     </Form>
     <Footer links={footerLinks} />
+    <CoolBackground />
   </div>
 )
 

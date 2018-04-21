@@ -4,7 +4,9 @@ import SocialLink from '../SocialLink'
 import './index.css'
 
 const Footer = ({ links = [] }) => (
-  <div className="footer">{links.map(link => <SocialLink {...link} />)}</div>
+  <div className="footer">
+    {links.map((link, key) => <SocialLink key={key} {...link} />)}
+  </div>
 )
 
 Footer.propTypes = {

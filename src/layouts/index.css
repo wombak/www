@@ -1,6 +1,5 @@
 body {
   background: linear-gradient(0, #141927, #2c364f);
-  background: url('bg-temp.png') no-repeat center center;
   background-size: cover;
   width: 100vw;
   height: 100vh;
