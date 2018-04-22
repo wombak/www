@@ -19,18 +19,12 @@ const Layout = ({ children, data }) => (
             'digital agency, javascript, development, html5, html, CSS, mvp, digital products',
         },
       ]}
-    >
-      <link
-        href="https://fonts.googleapis.com/css?family=Muli:400,700,900"
-        rel="stylesheet"
-      />
-    </Helmet>
+    />
     <div
       style={{
         margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
+        maxWidth: 1200,
+        padding: '0 1.0875rem 1.45rem',
       }}
     >
       {children()}

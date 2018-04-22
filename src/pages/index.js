@@ -1,16 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {
-  WombakLogo,
-  Header,
-  InputButton,
-  Footer,
-  Form,
-  CoolBackground,
-} from '../components'
-import Link from 'gatsby-link'
 
-import './index.css'
+import CoolBackground from 'components/CoolBackground'
+import FadeIn from 'components/FadeIn'
+import Footer from 'components/Footer'
+import Header from 'components/Header'
+import NewsletterForm from 'components/NewsletterForm'
+import WombakLogo from 'components/WombakLogo'
 
 const footerLinks = [
   {
@@ -22,17 +18,11 @@ const footerLinks = [
 const IndexPage = () => (
   <div>
     <WombakLogo />
-    <Header />
-    <Form action={process.env.GATSBY_NEWSLETTER_URL || ''} method="post">
-      <p>Sign up to our newsletter!</p>
-      <InputButton
-        label="submit"
-        type="email"
-        placeholder="your@email.com"
-        name="EMAIL"
-      />
-    </Form>
-    <Footer links={footerLinks} />
+    <FadeIn>
+      <Header />
+      <NewsletterForm formAction={process.env.GATSBY_NEWSLETTER_URL || ''} />
+      <Footer links={footerLinks} />
+    </FadeIn>
     <CoolBackground />
   </div>
 )

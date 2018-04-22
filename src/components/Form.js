@@ -1,12 +1,16 @@
 import React from 'react'
+import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
-import './index.css'
+const StyledForm = styled.form`
+  width: 400px;
+  max-width: 100%;
+  margin: auto;
+  padding: 0 10px;
+`
 
-const Form = ({ className = '', children, ...props }) => (
-  <form className={`form ${className}`} {...props}>
-    {children}
-  </form>
+const Form = ({ children, ...props }) => (
+  <StyledForm {...props}>{children}</StyledForm>
 )
 
 Form.propTypes = {

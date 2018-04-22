@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Wombak - JavaScript experts',
+    title: 'Wombak – Fullstack JavaScript Engineers',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -35,5 +35,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    'gatsby-plugin-resolve-src',
+    'gatsby-plugin-styled-components',
   ],
 }
