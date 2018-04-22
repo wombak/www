@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 
 const WombakSVG = ({ className }) => (
   <svg
@@ -17,12 +17,27 @@ const WombakSVG = ({ className }) => (
   </svg>
 )
 
+const logoFadeInAnimation = keyframes`
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+`
+
 const StyledLogo = styled(WombakSVG)`
   display: block;
   width: 100%;
   margin: auto;
   max-height: 60vh;
   max-width: 80vw;
+  opacity: 0;
+  transform: scale(1.5);
+  transform-origin: bottom center;
+  animation: ${logoFadeInAnimation} 1.5s ease-in-out forwards 0.5s;
 `
 
 const WombakLogo = props => <StyledLogo {...props} />

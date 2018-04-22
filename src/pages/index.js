@@ -7,6 +7,7 @@ import {
   CoolBackground,
   NewsletterForm,
 } from '../components'
+import FadeIn from '../components/FadeIn'
 import Link from 'gatsby-link'
 
 const footerLinks = [
@@ -19,9 +20,11 @@ const footerLinks = [
 const IndexPage = () => (
   <div>
     <WombakLogo />
-    <Header />
-    <NewsletterForm formAction={process.env.GATSBY_NEWSLETTER_URL || ''} />
-    <Footer links={footerLinks} />
+    <FadeIn>
+      <Header />
+      <NewsletterForm formAction={process.env.GATSBY_NEWSLETTER_URL || ''} />
+      <Footer links={footerLinks} />
+    </FadeIn>
     <CoolBackground />
   </div>
 )
