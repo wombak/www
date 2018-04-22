@@ -4,8 +4,8 @@ import styled from 'styled-components'
 
 const StyledSocialLink = styled.a`
   display: inline-block;
-  width: 33px;
-  height: 32px;
+  width: 25px;
+  height: 24px;
   margin: 0;
   opacity: 0.5;
   transition: opacity 0.25s ease-in-out;
@@ -13,13 +13,23 @@ const StyledSocialLink = styled.a`
   &:hover {
     opacity: 0.8;
   }
+
+  .social-link-svg {
+    max-width: 100%;
+  }
+
+  @media screen and (min-width: 600px) {
+    width: 33px;
+    height: 32px;
+  }
 `
 
 const socialIcons = {
   github: (
     <svg
+      className="social-link-svg"
       width="33"
-      height="32"
+      heigt="32"
       viewBox="0 0 33 32"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -41,6 +51,7 @@ const socialIcons = {
   ),
   twitter: (
     <svg
+      className="social-link-svg"
       width="32"
       height="32"
       viewBox="0 0 32 32"

@@ -19,7 +19,7 @@ const StyledHeader = styled.header`
     position: relative;
     max-width: 200px;
     top: -80px;
-    margin-bottom: -90px;
+    margin-bottom: -60px;
 
     .subtitle {
       display: inline;
@@ -30,7 +30,7 @@ const StyledHeader = styled.header`
   @media screen and (min-width: 800px) {
     font-size: 1.6em;
     top: -100px;
-    margin-bottom: -110px;
+    margin-bottom: -90px;
 
     .subtitle {
       left: 100px;

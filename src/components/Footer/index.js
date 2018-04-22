@@ -5,8 +5,13 @@ import SocialLink from '../SocialLink'
 
 const StyledFooter = styled.footer`
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
+
+  @media screen and (min-width: 600px) {
+    top: 20px;
+    right: 20px;
+  }
 `
 
 const Footer = ({ links = [] }) => (

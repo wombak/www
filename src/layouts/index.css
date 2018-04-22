@@ -9,3 +9,7 @@ body {
   font-weight: 400;
   color: #fff;
 }
+
+body * {
+  box-sizing: border-box;
+}

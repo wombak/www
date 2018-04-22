@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
+import { darken } from 'polished'
 
 const InputWrap = styled.div`
   margin: auto;
@@ -21,8 +22,10 @@ const inputResets = css`
 
 const InputField = styled.input`
   ${inputResets};
+  background: #fff;
   color: #141927;
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 300;
   padding: 10px;
   width: 100%;
 `
@@ -50,16 +53,24 @@ Input.propTypes = {
 
 const StyledButton = styled.button`
   ${inputResets};
-  padding: 10px 20px;
-  background-color: #f5e05b;
+  padding: 10px 16px;
+  background: #f5e05b;
   color: #141927;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 800;
   text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.25s ease-in-out;
+  white-space: nowrap;
+
+  &:hover {
+    background: ${darken(0.15, '#f5e05b')};
+  }
 `
 
-export const InputWithButton = ({ label, onClick, ...props }) => (
+export const InputWithButton = ({ buttonLabel, onClick, ...props }) => (
   <Input {...props}>
-    <StyledButton>{label}</StyledButton>
+    <StyledButton>{buttonLabel}</StyledButton>
   </Input>
 )
 

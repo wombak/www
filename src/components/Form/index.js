@@ -3,8 +3,10 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
 const StyledForm = styled.form`
-  max-width: 400px;
+  width: 400px;
+  max-width: 100%;
   margin: auto;
+  padding: 0 10px;
 `
 
 const Form = ({ children, ...props }) => (
