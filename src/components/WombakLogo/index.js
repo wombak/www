@@ -18,10 +18,6 @@ const WombakSVG = ({ className }) => (
 )
 
 const logoFadeInAnimation = keyframes`
-  from {
-    opacity: 0;
-  }
-
   to {
     opacity: 1;
     transform: scale(1);
