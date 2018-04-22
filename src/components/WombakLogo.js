@@ -12,7 +12,7 @@ const WombakSVG = ({ className }) => (
     <path
       d="M576.208 192.55L349.921 591 0 0h1147.763L812.124 591 576.208 192.55z"
       fill="#F5E05B"
-      fill-rule="evenodd"
+      fillRule="evenodd"
     />
   </svg>
 )
