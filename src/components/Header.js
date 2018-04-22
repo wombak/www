@@ -15,6 +15,7 @@ const StyledHeader = styled.header`
     top: 0;
     transform: translate(20%, -50%);
     width: 180px;
+    transition: transform 0.5s ease, left 0.5s ease;
   }
 
   @media screen and (min-width: 350px) {
@@ -24,19 +25,21 @@ const StyledHeader = styled.header`
   }
 
   @media screen and (min-width: 540px) {
-    font-size: 1.25em;
     max-width: 200px;
-    margin-bottom: -60px;
+    font-size: 1.25em;
 
     .subtitle {
       width: auto;
     }
   }
 
+  @media screen and (max-device-width: 736px) and (orientation: landscape) {
+    top: -90px;
+  }
+
   @media screen and (min-width: 800px) {
     font-size: 1.6em;
     top: -100px;
-    margin-bottom: -90px;
 
     .subtitle {
       left: 20px;

@@ -34,6 +34,10 @@ const StyledLogo = styled(WombakSVG)`
   transform: scale(1.5);
   transform-origin: bottom center;
   animation: ${logoFadeInAnimation} 1.5s ease-in-out forwards 0.5s;
+
+  @media screen and (max-device-width: 736px) and (orientation: landscape) {
+    max-height: 40vh;
+  }
 `
 
 const WombakLogo = props => <StyledLogo {...props} />

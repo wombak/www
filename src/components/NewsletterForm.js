@@ -33,11 +33,13 @@ const StyledRocket = styled(RocketIcon)`
 const NewsletterHeading = styled.h3`
   margin: 0 0 3px;
   font-size: 16px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 `
 
 const NewsletterSubHeading = styled.p`
   margin: 0;
   font-size: 13px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 `
 
 const NewsletterForm = ({ formAction }) => (
