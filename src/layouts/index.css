@@ -1,4 +1,8 @@
 @import '//fonts.googleapis.com/css?family=Muli:400,700,900';
+html,
+body {
+  overflow: hidden;
+}
 
 body {
   background: linear-gradient(0, #141927, #2c364f);

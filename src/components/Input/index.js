@@ -18,6 +18,7 @@ const inputResets = css`
   border-radius: 0;
   outline: none;
   font-family: 'Muli', sans-serif;
+  margin: 0;
 `
 
 const InputField = styled.input`
@@ -26,7 +27,7 @@ const InputField = styled.input`
   color: #141927;
   font-size: 17px;
   font-weight: 300;
-  padding: 10px;
+  padding: 0 10px;
   width: 100%;
 `
 
@@ -53,7 +54,7 @@ Input.propTypes = {
 
 const StyledButton = styled.button`
   ${inputResets};
-  padding: 10px 16px;
+  padding: 0 16px;
   background: #f5e05b;
   color: #141927;
   font-size: 15px;

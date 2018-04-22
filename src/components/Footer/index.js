@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import SocialLink from '../SocialLink'
 
 const StyledFooter = styled.footer`
-  position: absolute;
+  position: fixed;
   top: 10px;
   right: 10px;
 

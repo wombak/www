@@ -67,7 +67,7 @@ const socialIcons = {
 }
 
 const SocialLink = ({ name, link, ...props }) => (
-  <StyledSocialLink href={link} title={name} {...props}>
+  <StyledSocialLink href={link} title={name} target="_blank" {...props}>
     {socialIcons[name]}
   </StyledSocialLink>
 )
