@@ -1,19 +1,43 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import styled, { css } from 'styled-components'
 
-import './index.css'
+const InputWrap = styled.div`
+  margin: auto;
+  height: 45px;
+  display: flex;
+  align-items: stretch;
+  border-radius: 6px;
+  overflow: hidden;
+`
+
+const inputResets = css`
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  font-family: 'Muli', sans-serif;
+`
+
+const InputField = styled.input`
+  ${inputResets};
+  color: #141927;
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+`
 
 const Input = ({
   type = 'text',
-  placeholder = '',
-  className = '',
+  placeholder,
+  className,
   children,
   ...props
 }) => (
-  <div className={`inputField ${className}`}>
-    <input type={type} placeholder={placeholder} {...props} />
+  <InputWrap className={className}>
+    <InputField type={type} placeholder={placeholder} {...props} />
     {children}
-  </div>
+  </InputWrap>
 )
 
 Input.propTypes = {
@@ -24,9 +48,18 @@ Input.propTypes = {
   children: PropTypes.node,
 }
 
-export const InputButton = ({ label, onClick, ...props }) => (
+const StyledButton = styled.button`
+  ${inputResets};
+  padding: 10px 20px;
+  background-color: #f5e05b;
+  color: #141927;
+  font-size: 16px;
+  text-transform: uppercase;
+`
+
+export const InputWithButton = ({ label, onClick, ...props }) => (
   <Input {...props}>
-    <button className="button">{label}</button>
+    <StyledButton>{label}</StyledButton>
   </Input>
 )
 

@@ -3,14 +3,12 @@ import PropTypes from 'prop-types'
 import {
   WombakLogo,
   Header,
-  InputButton,
+  InputWithButton,
   Footer,
   Form,
   CoolBackground,
 } from '../components'
 import Link from 'gatsby-link'
-
-import './index.css'
 
 const footerLinks = [
   {
@@ -25,7 +23,7 @@ const IndexPage = () => (
     <Header />
     <Form action={process.env.GATSBY_NEWSLETTER_URL || ''} method="post">
       <p>Sign up to our newsletter!</p>
-      <InputButton
+      <InputWithButton
         label="submit"
         type="email"
         placeholder="your@email.com"

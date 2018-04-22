@@ -1,18 +1,23 @@
-import React from 'react'
+import React, { createElement } from 'react'
 import PropTypes from 'prop-types'
+import styled from 'styled-components'
 
-import './index.css'
+const StyledTitle = styled.h1`
+  text-transform: lowercase;
+  font-weight: 900;
+  font-size: 2em;
+  text-align: center;
+  margin: 40px auto 20px;
+  position: relative;
+`
 
-const Title = ({ component = 'h1', className = '', children, ...props }) =>
-  React.createElement(
-    component,
-    { className: `title ${className}`, ...props },
-    children
-  )
+const Title = ({ children, is = 'h1', ...props }) => {
+  const titleEl = StyledTitle.withComponent(is)
+  return createElement(titleEl, { ...props }, children)
+}
 
 Title.propTypes = {
-  component: PropTypes.string,
-  className: PropTypes.string,
+  is: PropTypes.string,
   children: PropTypes.node,
 }
 

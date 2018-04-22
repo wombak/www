@@ -1,12 +1,18 @@
 import React from 'react'
+import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import SocialLink from '../SocialLink'
-import './index.css'
+
+const StyledFooter = styled.footer`
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+`
 
 const Footer = ({ links = [] }) => (
-  <div className="footer">
+  <StyledFooter>
     {links.map((link, key) => <SocialLink key={key} {...link} />)}
-  </div>
+  </StyledFooter>
 )
 
 Footer.propTypes = {

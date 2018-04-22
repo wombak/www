@@ -1,6 +1,5 @@
 export { default as Title } from './Title'
-export { default as Input } from './Input'
-export { InputButton } from './Input'
+export { default as Input, InputWithButton } from './Input'
 export { default as WombakLogo } from './WombakLogo'
 export { default as Header } from './Header'
 export { default as Footer } from './Footer'
