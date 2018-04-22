@@ -5,25 +5,31 @@ import Title from '../Title'
 const StyledHeader = styled.header`
   margin: auto;
   text-align: center;
-  max-width: 50%;
+  max-width: 90%;
+  position: relative;
+  top: -40px;
+  transition: top 0.5s ease;
 
   .subtitle {
-    display: none;
     position: relative;
-    top: -40px;
-    left: 50px;
+    top: 0;
+    transform: translate(20%, -50%);
+    width: 180px;
+  }
+
+  @media screen and (min-width: 350px) {
+    .subtitle {
+      transform: translate(40%, -50%);
+    }
   }
 
   @media screen and (min-width: 540px) {
     font-size: 1.25em;
-    position: relative;
     max-width: 200px;
-    top: -80px;
     margin-bottom: -60px;
 
     .subtitle {
-      display: inline;
-      left: 50px;
+      width: auto;
     }
   }
 
@@ -33,7 +39,7 @@ const StyledHeader = styled.header`
     margin-bottom: -90px;
 
     .subtitle {
-      left: 100px;
+      left: 20px;
     }
   }
 `
@@ -54,7 +60,9 @@ const ComingSoon = ({ className }) => (
 
 const Header = ({ ...props }) => (
   <StyledHeader {...props}>
-    <Title>We are Wombak</Title>
+    <Title>
+      We are<br /> <strong>Wombak</strong>
+    </Title>
     <ComingSoon className="subtitle" />
   </StyledHeader>
 )
