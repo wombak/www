@@ -35,5 +35,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    'gatsby-plugin-resolve-src',
   ],
 }

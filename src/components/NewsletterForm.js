@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import Form from '../Form'
-import { InputWithButton } from '../Input'
-import RocketIcon from './RocketIcon'
+import Form from 'components/Form'
+import { InputWithButton } from 'components/Input'
+import RocketIcon from 'components/RocketIcon'
 
 const StyledForm = styled(Form)`
   position: absolute;

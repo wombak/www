@@ -29,7 +29,7 @@ const socialIcons = {
     <svg
       className="social-link-svg"
       width="33"
-      heigt="32"
+      height="32"
       viewBox="0 0 33 32"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"

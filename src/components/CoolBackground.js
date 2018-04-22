@@ -2,7 +2,7 @@ import 'aframe'
 import 'aframe-animation-component'
 import React from 'react'
 import styled from 'styled-components'
-import sky from './allsky.jpg'
+import sky from '../images/allsky.jpg'
 
 const Background = styled.div`
   position: absolute;

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Title from '../Title'
+import Title from 'components/Title'
 
 const StyledHeader = styled.header`
   margin: auto;

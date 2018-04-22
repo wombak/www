@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
-import SocialLink from '../SocialLink'
+import SocialLink from 'components/SocialLink'
 
 const StyledFooter = styled.footer`
   position: fixed;
