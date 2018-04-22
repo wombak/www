@@ -23,7 +23,7 @@ const IndexPage = () => (
       <NewsletterForm formAction={process.env.GATSBY_NEWSLETTER_URL || ''} />
       <Footer links={footerLinks} />
     </FadeIn>
-    {/* <CoolBackground /> */}
+    <CoolBackground />
   </div>
 )
 
