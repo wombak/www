@@ -6,7 +6,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
-      resolve: `gatsby-plugin-favicon`,
+      resolve: 'gatsby-plugin-favicon',
       options: {
         logo: './src/images/wombak.png',
         injectHTML: true,
@@ -38,4 +38,4 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-resolve-src',
   ],
-}
+};

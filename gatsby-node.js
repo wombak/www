@@ -9,6 +9,6 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
     config.loader('null', {
       test: /aframe/,
       loader: 'null-loader',
-    })
+    });
   }
-}
+};
