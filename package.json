@@ -6,7 +6,6 @@
   "dependencies": {
     "aframe": "0.8.2",
     "aframe-animation-component": "^4.1.2",
-    "babel-plugin-styled-components": "^1.5.1",
     "gatsby": "^1.9.250",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-favicon": "^2.1.1",
@@ -30,6 +29,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "babel-plugin-styled-components": "^1.5.1",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
