@@ -4,6 +4,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
@@ -36,6 +37,5 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-resolve-src',
-    'gatsby-plugin-styled-components',
   ],
 }
