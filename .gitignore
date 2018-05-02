@@ -8,3 +8,4 @@ yarn-error.log
 
 # Misc
 .DS_Store
+package-lock.json
