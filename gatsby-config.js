@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Wombak. Building better world wide web',
+        name: 'Wombak - Building better websites',
         short_name: 'Wombak',
         start_url: '/',
         background_color: '#000000',

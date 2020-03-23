@@ -11,7 +11,7 @@ const Layout = ({ children, data }) => (
       meta={[
         {
           name: 'description',
-          content: 'We are a digital agency with high JavaScript skills',
+          content: 'We are a digital cooperative with a profound skillset in and around JavaScript.',
         },
         {
           name: 'keywords',
