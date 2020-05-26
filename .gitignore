@@ -1,10 +1,7 @@
-# Project dependencies
-.cache
 node_modules
-yarn-error.log
-
-# Build directory
-/public
-
-# Misc
 .DS_Store
+yarn-debug.log
+yarn-error.log
+storybook-static
+.vscode
+dist

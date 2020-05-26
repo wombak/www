@@ -1,43 +1,75 @@
 {
-  "name": "wombak-coming-soon",
-  "description": "Coming Soon landing page for Wombak",
+  "name": "wombak.xyz",
+  "description": "Wombak agency website",
   "version": "1.0.0",
   "author": "Wombak <hello@wombak.xyz>",
+  "contributors": [
+    "Brad Adams <brad@wombak.xyz>",
+    "Gabriel Perales <gabriel@wombak.xyz>"
+  ],
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook",
+    "lint": "eslint ./src/**/*.{ts,tsx}",
+    "test": "jest"
   },
   "dependencies": {
-    "aframe": "1.0.4",
-    "aframe-animation-component": "^5.1.2",
-    "gatsby": "^2.20.3",
-    "gatsby-link": "^2.3.1",
-    "gatsby-plugin-favicon": "^3.1.6",
-    "gatsby-plugin-manifest": "^2.3.2",
-    "gatsby-plugin-offline": "^3.1.1",
-    "gatsby-plugin-react-helmet": "^3.2.1",
-    "gatsby-plugin-resolve-src": "^2.0.0",
-    "gatsby-plugin-styled-components": "^3.2.1",
-    "polished": "^3.5.1",
-    "react-dom": "^16.13.1",
-    "react-helmet": "^5.2.1",
-    "styled-components": "^5.0.1"
+    "framer-motion": "latest",
+    "next": "latest",
+    "polished": "latest",
+    "react": "^16.13",
+    "react-dom": "^16.13",
+    "styled-components": "latest"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.10.7",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.19.0",
-    "prettier": "^2.0.1",
-    "typescript": "^3.8.3"
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
+    "@babel/preset-typescript": "latest",
+    "@storybook/addon-info": "latest",
+    "@storybook/addon-storyshots": "latest",
+    "@storybook/react": "latest",
+    "@types/jest": "latest",
+    "@types/styled-components": "latest",
+    "babel-eslint": "latest",
+    "babel-loader": "latest",
+    "babel-plugin-styled-components": "latest",
+    "babel-preset-react-app": "latest",
+    "css-loader": "latest",
+    "eslint": "latest",
+    "eslint-config-airbnb": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jsx-a11y": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-react": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "husky": "latest",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "latest",
+    "jest-styled-components": "latest",
+    "prettier": "latest",
+    "pretty-quick": "latest",
+    "react-docgen-typescript-loader": "latest",
+    "react-is": "latest",
+    "react-test-renderer": "latest",
+    "storybook-addon-jsx": "latest",
+    "style-loader": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest"
   },
-  "keywords": [
-    "digital agency"
-  ]
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && npm run lint",
+      "pre-push": "npm run test"
+    }
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
+  }
 }
