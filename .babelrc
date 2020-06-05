@@ -1,10 +1,14 @@
 {
-  "plugins": [
+  "plugins": ["babel-plugin-styled-components"],
+  "presets": [
     [
-      "babel-plugin-styled-components",
+      "@babel/preset-env",
       {
-        "ssr": true
+        "useBuiltIns": "entry",
+        "corejs": "2"
       }
-    ]
+    ],
+    "@babel/preset-react",
+    "@babel/preset-typescript"
   ]
 }
