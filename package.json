@@ -51,7 +51,7 @@
     "eslint-plugin-react-hooks": "latest",
     "husky": "latest",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "latest",
+    "jest": "^25.5.4",
     "jest-styled-components": "latest",
     "prettier": "latest",
     "pretty-quick": "latest",
