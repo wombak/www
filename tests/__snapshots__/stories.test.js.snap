@@ -1,5 +1,1170 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Button Secondary 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Button
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          Secondary
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  color: #ffffff;
+  font-family: 'PT Mono',monospace;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.c0 {
+  display: inline-block;
+  background-color: #232323;
+  box-shadow: 0 2px 8px 0 rgba(47,47,47,0.3);
+  padding: 15px 20px;
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <div
+      className="c0"
+    >
+      <span
+        className="c1"
+        color="light"
+      >
+        Get in touch
+      </span>
+    </div>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Button
+                            </span>
+                          </span>
+                          
+  
+                          <span
+                            className="token attr-name"
+                          >
+                            label
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            Get in touch
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          
+  
+                          <span
+                            className="token attr-name"
+                          >
+                            variant
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            secondary
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          
+
+                          <span
+                            className="token punctuation"
+                          >
+                            /&gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          Button
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Button Small 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Button
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          Small
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  color: #232323;
+  font-family: 'PT Mono',monospace;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.c0 {
+  display: inline-block;
+  background-color: #f5e05b;
+  box-shadow: 0 0 10px 0 rgba(245,224,91,0.3),0 2px 8px 0 rgba(47,47,47,0.8);
+  padding: 12px 16px;
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <div
+      className="c0"
+      size="small"
+    >
+      <span
+        className="c1"
+        color="dark"
+        size="small"
+      >
+        Get in touch
+      </span>
+    </div>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Button
+                            </span>
+                          </span>
+                          
+  
+                          <span
+                            className="token attr-name"
+                          >
+                            label
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            Get in touch
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          
+  
+                          <span
+                            className="token attr-name"
+                          >
+                            size
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            small
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          
+
+                          <span
+                            className="token punctuation"
+                          >
+                            /&gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          Button
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Button Tertiary 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Button
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          Tertiary
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  color: #232323;
+  font-family: 'PT Mono',monospace;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.c0 {
+  display: inline-block;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px 0 rgba(47,47,47,0.3);
+  padding: 15px 20px;
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <div
+      className="c0"
+    >
+      <span
+        className="c1"
+        color="dark"
+      >
+        Get in touch
+      </span>
+    </div>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Button
+                            </span>
+                          </span>
+                          
+  
+                          <span
+                            className="token attr-name"
+                          >
+                            label
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            Get in touch
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          
+  
+                          <span
+                            className="token attr-name"
+                          >
+                            variant
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            tertiary
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          
+
+                          <span
+                            className="token punctuation"
+                          >
+                            /&gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          Button
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Button default 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Button
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          default
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  color: #232323;
+  font-family: 'PT Mono',monospace;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.c0 {
+  display: inline-block;
+  background-color: #f5e05b;
+  box-shadow: 0 0 10px 0 rgba(245,224,91,0.3),0 2px 8px 0 rgba(47,47,47,0.8);
+  padding: 15px 20px;
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <div
+      className="c0"
+    >
+      <span
+        className="c1"
+        color="dark"
+      >
+        Get in touch
+      </span>
+    </div>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Button
+                            </span>
+                          </span>
+                           
+                          <span
+                            className="token attr-name"
+                          >
+                            label
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            Get in touch
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                           
+                          <span
+                            className="token punctuation"
+                          >
+                            /&gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          Button
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
 exports[`Storyshots HelloWorld default 1`] = `
 Array [
   <div>
