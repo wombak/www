@@ -35,6 +35,8 @@
     "@storybook/react": "latest",
     "@types/jest": "latest",
     "@types/styled-components": "latest",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
     "babel-eslint": "latest",
     "babel-loader": "latest",
     "babel-plugin-styled-components": "latest",
