@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Logo } from '..';
-import { color, bp } from '../../theme';
+import { color } from '../../theme';
 import { MenuButton } from './MenuButton';
 
 export type HeaderVariant = 'light' | 'dark';
@@ -16,13 +16,9 @@ const HeaderWrapper = styled.div<Props>`
   align-items: center;
   box-sizing: border-box;
   height: 80px;
-  padding: 0px 10px;
   background-color: ${({ variant }) =>
     variant === 'light' ? color.light : color.dark};
-
-  @media screen and (min-width: ${bp.tablet}) {
-    padding: 0px 40px;
-  }
+  padding-left: 40px;
 `;
 
 const WombakLogo = styled(Logo)``;
