@@ -47,6 +47,7 @@ const ButtonWrapper = styled.div`
     variantToBgColor(variant)};
   box-shadow: ${({ variant }: Partial<Props>) => variantToBoxShadow(variant)};
   padding: ${({ size }: Partial<Props>) => sizeToPadding(size)};
+  cursor: pointer;
 `;
 
 export const Button: React.FC<Props & React.HTMLAttributes<HTMLDivElement>> = ({
