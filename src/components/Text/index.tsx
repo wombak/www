@@ -3,10 +3,22 @@ import styled from 'styled-components';
 
 export type TextColor = 'light' | 'dark';
 export type TextSize = 'normal' | 'xl' | 'xxl' | 'xxxl';
+export type TextTag =
+  | 'span'
+  | 'div'
+  | 'p'
+  | 'h1'
+  | 'h2'
+  | 'h3'
+  | 'h4'
+  | 'h5'
+  | 'h6'
+  | 'h7';
 
 interface Props {
   size?: TextSize;
   color?: TextColor;
+  as?: TextTag;
   children: string;
 }
 
