@@ -23,7 +23,8 @@ interface Props {
 }
 
 export const Logo: React.FC<Props> = ({
-  variant = 'dark'
+  variant = 'dark',
+  className
 }: Props & React.SVGAttributes<SVGElement>) => {
   const uid = useUID();
   const { logo, text, shadow } = variations[variant] ?? {};
@@ -38,6 +39,7 @@ export const Logo: React.FC<Props> = ({
         xmlnsXlink="http://www.w3.org/1999/xlink"
         width="163"
         viewBox="0 0 163 80"
+        className={className}
       >
         <defs>
           <path
