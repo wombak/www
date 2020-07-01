@@ -352,7 +352,7 @@ Array [
     </div>
   </div>,
   .c1 {
-  color: #232323;
+  color: inherit;
   font-family: 'PT Mono',monospace;
   font-weight: normal;
   font-size: 14px;
@@ -653,7 +653,7 @@ Array [
     </div>
   </div>,
   .c1 {
-  color: #232323;
+  color: inherit;
   font-family: 'PT Mono',monospace;
   font-weight: normal;
   font-size: 16px;
@@ -952,7 +952,7 @@ Array [
     </div>
   </div>,
   .c1 {
-  color: #232323;
+  color: inherit;
   font-family: 'PT Mono',monospace;
   font-weight: normal;
   font-size: 16px;
@@ -1233,7 +1233,7 @@ Array [
 
 .c0 {
   display: inline-block;
-  color: #232323;
+  color: inherit;
   font-style: normal;
   text-align: center;
 }
@@ -4069,7 +4069,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  color: #232323;
+  color: inherit;
   font-family: 'PT Mono',monospace;
   font-weight: bold;
   font-size: 32px;
@@ -4356,7 +4356,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  color: #232323;
+  color: inherit;
   font-family: 'PT Mono',monospace;
   font-weight: bold;
   font-size: 60px;
@@ -4643,7 +4643,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  color: #232323;
+  color: inherit;
   font-family: 'PT Mono',monospace;
   font-weight: bold;
   font-size: 72px;
@@ -4930,7 +4930,7 @@ Array [
     </div>
   </div>,
   .c0 {
-  color: #232323;
+  color: inherit;
   font-family: 'PT Mono',monospace;
   font-weight: normal;
   font-size: 16px;

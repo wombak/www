@@ -11,7 +11,7 @@ interface Props {
 
 const ContactDetailsWrapper = styled.address<Props>`
   display: inline-block;
-  color: ${({ variant }) => (variant === 'light' ? color.light : color.dark)};
+  color: ${({ variant }) => (variant && color[variant]) ?? 'inherit'};
   font-style: normal;
   text-align: center;
   @media screen and (min-width: ${bp.tablet}) {

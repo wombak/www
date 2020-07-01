@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import * as theme from '../../theme';
 
 export type TextColor = 'light' | 'dark';
 export type TextSize = 'small' | 'normal' | 'xl' | 'xxl' | 'xxxl';
@@ -48,8 +49,13 @@ const sizeToWeight = (size?: TextSize) => {
   }
 };
 
+const variants = {
+  light: theme.color.light,
+  darK: theme.color.dark
+};
+
 export const Text: React.FC<Props> = styled.span`
-  color: ${({ color }: Props) => (color === 'light' ? '#ffffff' : '#232323')};
+  color: ${({ color }: Props) => (color && variants[color]) ?? 'inherit'};
   font-family: 'PT Mono', monospace;
   font-weight: ${({ size }: Props) => sizeToWeight(size)};
   font-size: ${({ size }: Props) => sizeToPx(size)};

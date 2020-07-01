@@ -18,11 +18,13 @@
     "test": "jest"
   },
   "dependencies": {
-    "framer-motion": "latest",
+    "framer-motion": "^2.0.0-beta.77",
+    "leaflet": "^1.6.0",
     "next": "latest",
     "polished": "latest",
     "react": "^16.13",
     "react-dom": "^16.13",
+    "react-leaflet": "^2.7.0",
     "react-uid": "^2.3.0",
     "styled-components": "latest",
     "styled-icons": "^10.5.0"
@@ -36,6 +38,8 @@
     "@storybook/addon-storyshots": "latest",
     "@storybook/react": "latest",
     "@types/jest": "latest",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-leaflet": "^2.5.2",
     "@types/styled-components": "latest",
     "@typescript-eslint/eslint-plugin": "^3.4.0",
     "@typescript-eslint/parser": "^3.4.0",
