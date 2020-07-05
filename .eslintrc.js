@@ -18,6 +18,7 @@ module.exports = {
   plugins: ['jsx-a11y', 'import', 'react', 'prettier', 'react-hooks'],
   rules: {
     'arrow-parens': 'off',
+    'no-confusing-arrow': 'off',
     'comma-dangle': [
       'error',
       {
@@ -65,4 +66,4 @@ module.exports = {
       }
     }
   ]
-}
+};
