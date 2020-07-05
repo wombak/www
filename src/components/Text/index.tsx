@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 export type TextColor = 'light' | 'dark';
-export type TextSize = 'normal' | 'xl' | 'xxl' | 'xxxl';
+export type TextSize = 'small' | 'normal' | 'xl' | 'xxl' | 'xxxl';
 export type TextTag =
   | 'span'
   | 'div'
@@ -24,6 +24,8 @@ interface Props {
 
 const sizeToPx = (size?: TextSize) => {
   switch (size) {
+    case 'small':
+      return '14px';
     case 'xl':
       return '32px';
     case 'xxl':
