@@ -1,5 +1,2671 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Button Secondary 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Button
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          Secondary
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  color: #ffffff;
+  font-family: 'PT Mono',monospace;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.c0 {
+  display: inline-block;
+  background-color: #232323;
+  box-shadow: 0 2px 8px 0 rgba(47,47,47,0.3);
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <div
+      className="c0"
+    >
+      <span
+        className="c1"
+        color="light"
+      >
+        Get in touch
+      </span>
+    </div>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Button
+                            </span>
+                          </span>
+                          
+  
+                          <span
+                            className="token attr-name"
+                          >
+                            label
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            Get in touch
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          
+  
+                          <span
+                            className="token attr-name"
+                          >
+                            variant
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            secondary
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          
+
+                          <span
+                            className="token punctuation"
+                          >
+                            /&gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          Button
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Button Small 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Button
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          Small
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  color: #232323;
+  font-family: 'PT Mono',monospace;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.c0 {
+  display: inline-block;
+  background-color: #f5e05b;
+  box-shadow: 0 0 10px 0 rgba(245,224,91,0.3),0 2px 8px 0 rgba(47,47,47,0.8);
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <div
+      className="c0"
+      size="small"
+    >
+      <span
+        className="c1"
+        color="dark"
+        size="small"
+      >
+        Get in touch
+      </span>
+    </div>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Button
+                            </span>
+                          </span>
+                          
+  
+                          <span
+                            className="token attr-name"
+                          >
+                            label
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            Get in touch
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          
+  
+                          <span
+                            className="token attr-name"
+                          >
+                            size
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            small
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          
+
+                          <span
+                            className="token punctuation"
+                          >
+                            /&gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          Button
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Button Tertiary 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Button
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          Tertiary
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  color: #232323;
+  font-family: 'PT Mono',monospace;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.c0 {
+  display: inline-block;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px 0 rgba(47,47,47,0.3);
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <div
+      className="c0"
+    >
+      <span
+        className="c1"
+        color="dark"
+      >
+        Get in touch
+      </span>
+    </div>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Button
+                            </span>
+                          </span>
+                          
+  
+                          <span
+                            className="token attr-name"
+                          >
+                            label
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            Get in touch
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          
+  
+                          <span
+                            className="token attr-name"
+                          >
+                            variant
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            tertiary
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          
+
+                          <span
+                            className="token punctuation"
+                          >
+                            /&gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          Button
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Button default 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Button
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          default
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  color: #232323;
+  font-family: 'PT Mono',monospace;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.c0 {
+  display: inline-block;
+  background-color: #f5e05b;
+  box-shadow: 0 0 10px 0 rgba(245,224,91,0.3),0 2px 8px 0 rgba(47,47,47,0.8);
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <div
+      className="c0"
+    >
+      <span
+        className="c1"
+        color="dark"
+      >
+        Get in touch
+      </span>
+    </div>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Button
+                            </span>
+                          </span>
+                           
+                          <span
+                            className="token attr-name"
+                          >
+                            label
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            Get in touch
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                           
+                          <span
+                            className="token punctuation"
+                          >
+                            /&gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          Button
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Contact Details default 1`] = `
+Array [
+  @media screen and (min-width:756px) {
+
+}
+
+<div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Contact Details
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          default
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c3 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  display: inline-block;
+  color: #232323;
+  font-style: normal;
+  text-align: center;
+}
+
+.c2 {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  color: inherit;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4 {
+  color: #232323;
+}
+
+.c5 {
+  color: #232323;
+}
+
+.c6 {
+  font-size: 10px;
+}
+
+.c7 {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 10px;
+}
+
+.c8 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width:756px) {
+  .c0 {
+    text-align: right;
+  }
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <address
+      className="c0"
+    >
+      <a
+        className="c1"
+        href="mailto:hi@wombak.xyz"
+      >
+        hi@wombak.xyz
+      </a>
+      <div>
+        <a
+          className="c2"
+          href="https://github.com/wombak"
+          target="_blank"
+        >
+          <svg
+            aria-hidden="true"
+            className="c3 c4"
+            fill="currentColor"
+            focusable="false"
+            height="21"
+            viewBox="0 0 496 512"
+            width="21"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <a
+          className="c2"
+          href="https://www.linkedin.com/company/wombak/"
+          target="_blank"
+        >
+          <svg
+            aria-hidden="true"
+            className="c3 c5"
+            fill="currentColor"
+            focusable="false"
+            height="21"
+            viewBox="0 0 448 512"
+            width="21"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+      </div>
+      <p
+        className="c6"
+      >
+        <a
+          className="c7"
+          href="tel:+34968000000"
+        >
+          +34 968 00 00 00
+        </a>
+        <span
+          className="c8"
+        >
+          /
+        </span>
+        <a
+          className="c7"
+          href="tel:+34619479705"
+        >
+          +34 619 47 97 05
+        </a>
+        <br />
+        Calle Plateria, 29 2
+        <br />
+        Murcia 30001
+        <br />
+        Spain
+        <br />
+      </p>
+    </address>
+  </div>,
+  @media screen and (min-width:756px) {
+
+}
+
+<div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              ContactDetails
+                            </span>
+                          </span>
+                           
+                          <span
+                            className="token punctuation"
+                          >
+                            /&gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          ContactDetails
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Contact Details light 1`] = `
+Array [
+  @media screen and (min-width:756px) {
+
+}
+
+<div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Contact Details
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          light
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c3 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  display: inline-block;
+  color: #ffffff;
+  font-style: normal;
+  text-align: center;
+}
+
+.c2 {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  color: inherit;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4 {
+  color: #f5e05b;
+}
+
+.c5 {
+  color: #f5e05b;
+}
+
+.c6 {
+  font-size: 10px;
+}
+
+.c7 {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 10px;
+}
+
+.c8 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width:756px) {
+  .c0 {
+    text-align: right;
+  }
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <address
+      className="c0"
+    >
+      <a
+        className="c1"
+        href="mailto:hi@wombak.xyz"
+      >
+        hi@wombak.xyz
+      </a>
+      <div>
+        <a
+          className="c2"
+          href="https://github.com/wombak"
+          target="_blank"
+        >
+          <svg
+            aria-hidden="true"
+            className="c3 c4"
+            fill="currentColor"
+            focusable="false"
+            height="21"
+            viewBox="0 0 496 512"
+            width="21"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        <a
+          className="c2"
+          href="https://www.linkedin.com/company/wombak/"
+          target="_blank"
+        >
+          <svg
+            aria-hidden="true"
+            className="c3 c5"
+            fill="currentColor"
+            focusable="false"
+            height="21"
+            viewBox="0 0 448 512"
+            width="21"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+      </div>
+      <p
+        className="c6"
+      >
+        <a
+          className="c7"
+          href="tel:+34968000000"
+        >
+          +34 968 00 00 00
+        </a>
+        <span
+          className="c8"
+        >
+          /
+        </span>
+        <a
+          className="c7"
+          href="tel:+34619479705"
+        >
+          +34 619 47 97 05
+        </a>
+        <br />
+        Calle Plateria, 29 2
+        <br />
+        Murcia 30001
+        <br />
+        Spain
+        <br />
+      </p>
+    </address>
+  </div>,
+  @media screen and (min-width:756px) {
+
+}
+
+<div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              ContactDetails
+                            </span>
+                          </span>
+                           
+                          <span
+                            className="token attr-name"
+                          >
+                            variant
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            light
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                           
+                          <span
+                            className="token punctuation"
+                          >
+                            /&gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          ContactDetails
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Header Light 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Header
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          Light
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 80px;
+  height: 100%;
+}
+
+.c2 {
+  box-sizing: border-box;
+  width: 12px;
+  height: 12px;
+  padding: 2px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #232323;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  background-color: #232323;
+  border-radius: 50%;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  opacity: 0;
+}
+
+.c4 {
+  position: absolute;
+  bottom: 15px;
+  color: #232323;
+  font-size: 8px;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  opacity: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 80px;
+  background-color: #ffffff;
+  padding-left: 40px;
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <div
+      className="c0"
+    >
+      <svg
+        viewBox="0 0 163 80"
+        width="163"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <defs>
+          <path
+            d="M4.677 26l1.166-3.663h.092L6.971 26h2.424l1.868-9.25H9.098l-.758 4.68-.166 1.591H8.08L6.694 18.97H5.158l-1.369 4.052h-.093l-.147-1.147-.907-5.125H.237L2.179 26h2.498zm12.173.259c.74 0 1.41-.108 2.007-.324a4.261 4.261 0 001.545-.952c.432-.42.765-.932.999-1.536.234-.604.352-1.295.352-2.072 0-.728-.108-1.394-.324-1.998a4.16 4.16 0 00-.953-1.545 4.296 4.296 0 00-1.545-.99c-.61-.234-1.304-.351-2.081-.351-.74 0-1.41.108-2.007.324a4.261 4.261 0 00-1.545.952c-.432.42-.765.932-.999 1.536-.234.604-.351 1.295-.351 2.072 0 .728.107 1.394.323 1.998a4.16 4.16 0 00.953 1.545c.42.425.934.755 1.545.99.61.234 1.304.351 2.081.351zm0-2.035c-.382 0-.722-.07-1.018-.213a2.174 2.174 0 01-.758-.601 2.773 2.773 0 01-.481-.907 3.67 3.67 0 01-.166-1.128c0-.506.061-.937.184-1.295.124-.358.293-.654.51-.888.215-.234.471-.404.767-.509.296-.105.617-.157.962-.157.777 0 1.375.262 1.794.786.42.524.63 1.212.63 2.063 0 .987-.226 1.708-.676 2.165-.45.456-1.033.684-1.748.684zM24.99 26v-6.697a.985.985 0 01.36-.518.944.944 0 01.583-.204c.124 0 .244.022.361.065.117.043.216.13.296.26.08.129.145.308.195.536.049.228.073.527.073.897V26h2.22v-6.753c.062-.234.173-.403.334-.508.16-.105.351-.158.573-.158.259 0 .478.111.657.334.179.222.268.61.268 1.165V26h2.22v-6.327c0-.629-.052-1.144-.157-1.545-.105-.4-.256-.718-.453-.953a1.58 1.58 0 00-.694-.49 2.714 2.714 0 00-.898-.138c-.444 0-.857.114-1.239.342a2.064 2.064 0 00-.851.99c-.136-.494-.389-.84-.759-1.037a2.443 2.443 0 00-1.165-.295c-.481 0-.9.114-1.258.342a2.268 2.268 0 00-.814.878h-.055l-.26-1.017H22.77V26h2.22zm13.616.222c.814 0 1.545-.111 2.192-.333a4.47 4.47 0 001.647-.971c.45-.426.798-.956 1.045-1.591.247-.635.37-1.366.37-2.193 0-1.541-.367-2.694-1.1-3.459-.735-.765-1.712-1.147-2.933-1.147-.641 0-1.18.086-1.619.259-.438.173-.786.407-1.045.703h-.074v-4.44h-3.83v2.035h1.425v10.138c.358.222.86.444 1.508.666.647.222 1.452.333 2.414.333zm.407-2.035c-.395 0-.765-.05-1.11-.148a4.882 4.882 0 01-.814-.296v-3.848c.074-.21.194-.398.36-.564a2.617 2.617 0 011.139-.675c.21-.062.4-.093.573-.093.728 0 1.28.222 1.656.666.376.444.564 1.104.564 1.98 0 .518-.062.962-.185 1.332-.123.37-.293.678-.509.924a1.99 1.99 0 01-.758.546 2.42 2.42 0 01-.916.176zm9.639 1.961c.776 0 1.393-.139 1.85-.416.456-.278.807-.608 1.054-.99h.093l.24 1.258h3.071v-2.035h-1.203a7.726 7.726 0 00-.055-.5c-.025-.32-.037-.61-.037-.869 0-.345.022-.74.065-1.184.043-.444.065-.98.065-1.61 0-.493-.062-.937-.186-1.331a2.496 2.496 0 00-.6-1.018c-.278-.284-.642-.503-1.092-.657-.45-.154-.996-.231-1.638-.231-.888 0-1.655.08-2.303.24-.647.16-1.218.352-1.711.574l.574 1.887c.345-.16.77-.32 1.276-.481a5.618 5.618 0 011.702-.24c.53 0 .931.101 1.203.305.27.203.406.54.406 1.008v.351c0 .124-.012.247-.037.37a30.28 30.28 0 01-.906-.073 7.683 7.683 0 00-2.414.139c-.512.116-.95.295-1.314.536-.364.24-.641.549-.832.925-.191.376-.287.823-.287 1.341 0 .814.271 1.468.814 1.961.543.493 1.276.74 2.201.74zm.776-1.98c-.468 0-.804-.095-1.008-.286-.203-.191-.305-.46-.305-.805 0-.21.055-.389.166-.537.111-.148.26-.268.444-.36.185-.093.395-.16.63-.204.234-.043.468-.064.703-.064.283 0 .548.015.795.046.247.03.432.058.555.083v1.11c-.136.247-.352.478-.648.694-.295.216-.74.324-1.331.324zM59.623 26v-3.83h.648L63.45 26h2.997v-2.035h-1.72l-2.423-2.997 3.736-4.218h-2.83l-3.034 3.681h-.555V13.05H55.7v2.035h1.517V26h2.405z"
+            id="2_t"
+          />
+        </defs>
+        <path
+          d="M81.8141829 26.0539219L51.2551868 79.9681529 4 0 159 0 113.67353 79.9681529z"
+          fill="#f5e05b"
+        />
+        <g
+          fillRule="nonzero"
+        >
+          <use
+            fill="#232323"
+            xlinkHref="#2_t"
+          />
+        </g>
+      </svg>
+      <div
+        className="c1"
+        onClick={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+      >
+        <div
+          className="c2"
+          open={false}
+        >
+          <div
+            className="c3"
+          />
+        </div>
+        <div
+          className="c4"
+        >
+          Menu
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Header
+                            </span>
+                          </span>
+                           
+                          <span
+                            className="token attr-name"
+                          >
+                            variant
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            light
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                           
+                          <span
+                            className="token punctuation"
+                          >
+                            /&gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          Header
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Header default 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Header
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          default
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 80px;
+  height: 100%;
+}
+
+.c2 {
+  box-sizing: border-box;
+  width: 12px;
+  height: 12px;
+  padding: 2px;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+.c3 {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  opacity: 0;
+}
+
+.c4 {
+  position: absolute;
+  bottom: 15px;
+  color: #ffffff;
+  font-size: 8px;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  opacity: 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 80px;
+  background-color: #232323;
+  padding-left: 40px;
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <div
+      className="c0"
+    >
+      <svg
+        viewBox="0 0 163 80"
+        width="163"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <defs>
+          <path
+            d="M4.677 26l1.166-3.663h.092L6.971 26h2.424l1.868-9.25H9.098l-.758 4.68-.166 1.591H8.08L6.694 18.97H5.158l-1.369 4.052h-.093l-.147-1.147-.907-5.125H.237L2.179 26h2.498zm12.173.259c.74 0 1.41-.108 2.007-.324a4.261 4.261 0 001.545-.952c.432-.42.765-.932.999-1.536.234-.604.352-1.295.352-2.072 0-.728-.108-1.394-.324-1.998a4.16 4.16 0 00-.953-1.545 4.296 4.296 0 00-1.545-.99c-.61-.234-1.304-.351-2.081-.351-.74 0-1.41.108-2.007.324a4.261 4.261 0 00-1.545.952c-.432.42-.765.932-.999 1.536-.234.604-.351 1.295-.351 2.072 0 .728.107 1.394.323 1.998a4.16 4.16 0 00.953 1.545c.42.425.934.755 1.545.99.61.234 1.304.351 2.081.351zm0-2.035c-.382 0-.722-.07-1.018-.213a2.174 2.174 0 01-.758-.601 2.773 2.773 0 01-.481-.907 3.67 3.67 0 01-.166-1.128c0-.506.061-.937.184-1.295.124-.358.293-.654.51-.888.215-.234.471-.404.767-.509.296-.105.617-.157.962-.157.777 0 1.375.262 1.794.786.42.524.63 1.212.63 2.063 0 .987-.226 1.708-.676 2.165-.45.456-1.033.684-1.748.684zM24.99 26v-6.697a.985.985 0 01.36-.518.944.944 0 01.583-.204c.124 0 .244.022.361.065.117.043.216.13.296.26.08.129.145.308.195.536.049.228.073.527.073.897V26h2.22v-6.753c.062-.234.173-.403.334-.508.16-.105.351-.158.573-.158.259 0 .478.111.657.334.179.222.268.61.268 1.165V26h2.22v-6.327c0-.629-.052-1.144-.157-1.545-.105-.4-.256-.718-.453-.953a1.58 1.58 0 00-.694-.49 2.714 2.714 0 00-.898-.138c-.444 0-.857.114-1.239.342a2.064 2.064 0 00-.851.99c-.136-.494-.389-.84-.759-1.037a2.443 2.443 0 00-1.165-.295c-.481 0-.9.114-1.258.342a2.268 2.268 0 00-.814.878h-.055l-.26-1.017H22.77V26h2.22zm13.616.222c.814 0 1.545-.111 2.192-.333a4.47 4.47 0 001.647-.971c.45-.426.798-.956 1.045-1.591.247-.635.37-1.366.37-2.193 0-1.541-.367-2.694-1.1-3.459-.735-.765-1.712-1.147-2.933-1.147-.641 0-1.18.086-1.619.259-.438.173-.786.407-1.045.703h-.074v-4.44h-3.83v2.035h1.425v10.138c.358.222.86.444 1.508.666.647.222 1.452.333 2.414.333zm.407-2.035c-.395 0-.765-.05-1.11-.148a4.882 4.882 0 01-.814-.296v-3.848c.074-.21.194-.398.36-.564a2.617 2.617 0 011.139-.675c.21-.062.4-.093.573-.093.728 0 1.28.222 1.656.666.376.444.564 1.104.564 1.98 0 .518-.062.962-.185 1.332-.123.37-.293.678-.509.924a1.99 1.99 0 01-.758.546 2.42 2.42 0 01-.916.176zm9.639 1.961c.776 0 1.393-.139 1.85-.416.456-.278.807-.608 1.054-.99h.093l.24 1.258h3.071v-2.035h-1.203a7.726 7.726 0 00-.055-.5c-.025-.32-.037-.61-.037-.869 0-.345.022-.74.065-1.184.043-.444.065-.98.065-1.61 0-.493-.062-.937-.186-1.331a2.496 2.496 0 00-.6-1.018c-.278-.284-.642-.503-1.092-.657-.45-.154-.996-.231-1.638-.231-.888 0-1.655.08-2.303.24-.647.16-1.218.352-1.711.574l.574 1.887c.345-.16.77-.32 1.276-.481a5.618 5.618 0 011.702-.24c.53 0 .931.101 1.203.305.27.203.406.54.406 1.008v.351c0 .124-.012.247-.037.37a30.28 30.28 0 01-.906-.073 7.683 7.683 0 00-2.414.139c-.512.116-.95.295-1.314.536-.364.24-.641.549-.832.925-.191.376-.287.823-.287 1.341 0 .814.271 1.468.814 1.961.543.493 1.276.74 2.201.74zm.776-1.98c-.468 0-.804-.095-1.008-.286-.203-.191-.305-.46-.305-.805 0-.21.055-.389.166-.537.111-.148.26-.268.444-.36.185-.093.395-.16.63-.204.234-.043.468-.064.703-.064.283 0 .548.015.795.046.247.03.432.058.555.083v1.11c-.136.247-.352.478-.648.694-.295.216-.74.324-1.331.324zM59.623 26v-3.83h.648L63.45 26h2.997v-2.035h-1.72l-2.423-2.997 3.736-4.218h-2.83l-3.034 3.681h-.555V13.05H55.7v2.035h1.517V26h2.405z"
+            id="1_t"
+          />
+          <filter
+            filterUnits="objectBoundingBox"
+            height="281.7%"
+            id="1_s"
+            width="136.2%"
+            x="-18.1%"
+            y="-90.8%"
+          >
+            <feOffset
+              in="SourceAlpha"
+              result="shadowOffsetOuter1"
+            />
+            <feGaussianBlur
+              in="shadowOffsetOuter1"
+              result="shadowBlurOuter1"
+              stdDeviation="4"
+            />
+            <feColorMatrix
+              in="shadowBlurOuter1"
+              values="0 0 0 0 0.137254902 0 0 0 0 0.137254902 0 0 0 0 0.137254902 0 0 0 0.5 0"
+            />
+          </filter>
+        </defs>
+        <path
+          d="M81.8141829 26.0539219L51.2551868 79.9681529 4 0 159 0 113.67353 79.9681529z"
+          fill="#f5e05b"
+        />
+        <g
+          fillRule="nonzero"
+        >
+          <use
+            fill="#232323"
+            filter="url(#1_s)"
+            xlinkHref="#1_t"
+          />
+          <use
+            fill="#ffffff"
+            xlinkHref="#1_t"
+          />
+        </g>
+      </svg>
+      <div
+        className="c1"
+        onClick={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+      >
+        <div
+          className="c2"
+          open={false}
+        >
+          <div
+            className="c3"
+          />
+        </div>
+        <div
+          className="c4"
+        >
+          Menu
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Header
+                            </span>
+                          </span>
+                           
+                          <span
+                            className="token punctuation"
+                          >
+                            /&gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          Header
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
 exports[`Storyshots HelloWorld default 1`] = `
 Array [
   <div>
@@ -247,6 +2913,1127 @@ Array [
         >
           "
           HelloWorld
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Text Size XL 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Text
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          Size XL
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c0 {
+  color: #232323;
+  font-family: 'PT Mono',monospace;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <span
+      className="c0"
+      size="xl"
+    >
+      H2/Dark-Mobile
+    </span>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Text
+                            </span>
+                          </span>
+                           
+                          <span
+                            className="token attr-name"
+                          >
+                            size
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            xl
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          <span
+                            className="token punctuation"
+                          >
+                            &gt;
+                          </span>
+                        </span>
+                        <span
+                          className="token plain-text"
+                        >
+                          
+  H2/Dark-Mobile
+
+                        </span>
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;/
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Text
+                            </span>
+                          </span>
+                          <span
+                            className="token punctuation"
+                          >
+                            &gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          Text
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Text Size XXL 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Text
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          Size XXL
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c0 {
+  color: #232323;
+  font-family: 'PT Mono',monospace;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <span
+      className="c0"
+      size="xxl"
+    >
+      H2/Dark
+    </span>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Text
+                            </span>
+                          </span>
+                           
+                          <span
+                            className="token attr-name"
+                          >
+                            size
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            xxl
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          <span
+                            className="token punctuation"
+                          >
+                            &gt;
+                          </span>
+                        </span>
+                        <span
+                          className="token plain-text"
+                        >
+                          
+  H2/Dark
+
+                        </span>
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;/
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Text
+                            </span>
+                          </span>
+                          <span
+                            className="token punctuation"
+                          >
+                            &gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          Text
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Text Size XXXL 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Text
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          Size XXXL
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c0 {
+  color: #232323;
+  font-family: 'PT Mono',monospace;
+  font-weight: bold;
+  font-size: 72px;
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <span
+      className="c0"
+      size="xxxl"
+    >
+      H1/Dark
+    </span>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Text
+                            </span>
+                          </span>
+                           
+                          <span
+                            className="token attr-name"
+                          >
+                            size
+                          </span>
+                          <span
+                            className="token attr-value"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              =
+                            </span>
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                            xxxl
+                            <span
+                              className="token punctuation"
+                            >
+                              "
+                            </span>
+                          </span>
+                          <span
+                            className="token punctuation"
+                          >
+                            &gt;
+                          </span>
+                        </span>
+                        <span
+                          className="token plain-text"
+                        >
+                          
+  H1/Dark
+
+                        </span>
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;/
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Text
+                            </span>
+                          </span>
+                          <span
+                            className="token punctuation"
+                          >
+                            &gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          Text
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Text default 1`] = `
+Array [
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "borderBottom": "1px solid #eee",
+            "marginBottom": 10,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <h1
+          style={
+            Object {
+              "fontSize": "35px",
+              "margin": 0,
+              "padding": 0,
+            }
+          }
+        >
+          Text
+        </h1>
+        <h2
+          style={
+            Object {
+              "fontSize": "22px",
+              "fontWeight": 400,
+              "margin": "0 0 10px 0",
+              "padding": 0,
+            }
+          }
+        >
+          default
+        </h2>
+      </div>
+    </div>
+  </div>,
+  .c0 {
+  color: #232323;
+  font-family: 'PT Mono',monospace;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+<div
+    id="story-root"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "paddingLeft": 20,
+      }
+    }
+  >
+    <span
+      className="c0"
+    >
+      Hello World
+    </span>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                  tabIndex={0}
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Text
+                            </span>
+                          </span>
+                          <span
+                            className="token punctuation"
+                          >
+                            &gt;
+                          </span>
+                        </span>
+                        <span
+                          className="token plain-text"
+                        >
+                          
+  Hello World
+
+                        </span>
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;/
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              Text
+                            </span>
+                          </span>
+                          <span
+                            className="token punctuation"
+                          >
+                            &gt;
+                          </span>
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          Text
           " Component
         </h3>
         <small>
